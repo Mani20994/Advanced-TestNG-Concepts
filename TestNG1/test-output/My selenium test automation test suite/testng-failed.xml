@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My selenium test automation test suite]">
+  <test thread-count="5" name="My App Test Case(failed)">
+    <classes>
+      <class name="testngsessions.Depency_In_TestNG">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- testngsessions.Depency_In_TestNG -->
+    </classes>
+  </test> <!-- My App Test Case(failed) -->
+</suite> <!-- Failed suite [My selenium test automation test suite] -->

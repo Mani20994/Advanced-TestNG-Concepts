@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My selenium test automation test suite">
+<test name="My App Test Case">
+<classes>
+<class name="testngsessions.Depency_In_TestNG"></class>
+<class name="testngsessions.Ignore_TestCases"></class>
+<class name="testngsessions.Invocation_Count"></class>
+<class name="testngsessions.TestNGGroups"></class>
+
+</classes>
+</test>
+</suite>
