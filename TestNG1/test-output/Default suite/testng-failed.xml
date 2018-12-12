@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngsessions.Home_Page_Test">
+      <class name="com.Parameters.Paremater_Test">
         <methods>
-          <include name="clickOnContactLinkTest"/>
-          <include name="setUP"/>
-          <include name="tearDown"/>
+          <include name="yahooLoginTest"/>
         </methods>
-      </class> <!-- testngsessions.Home_Page_Test -->
+      </class> <!-- com.Parameters.Paremater_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
